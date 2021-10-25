@@ -1,0 +1,153 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#cabecalho {
+  color: white;
+  background-color: steelblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#titulo {
+  padding: 8px;
+  text-align: center;
+}
+
+.navegacao {
+  background-color: white;
+  position: relative;
+  top: 95.88px;
+  border: groove;
+}
+
+.navegacao ul {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.navegacao li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+#minha_foto {
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+#div-foto {
+  position: relative;
+  margin-left: 1.9rem;
+  top: 110px;
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+#div-foto span {
+  font-size: 20px;
+}
+
+#informacao-pessoal {
+  float: right;
+}
+
+.nav-link {
+  margin-top: 8px;
+}
+
+.nav-link a {
+  display: inline-block;
+  background-color: steelblue;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  vertical-align: 1px;
+  font-size: 1.2rem;
+  line-height: 19px;
+}
+
+.nav-link strong {
+  display: inline-flex;
+  padding-right: 5px;
+}
+
+#principal {
+  position: relative;
+  top: 150px;
+}
+
+#licoes {
+  display: flex;
+  margin-left: 2.5rem;
+}
+
+
+#aprender {
+  margin-left: 2rem;
+}
+
+#tabela {
+  margin-left: 15rem;
+  margin-top: 1.4rem;
+}
+
+table , tr , th , td {
+  border: solid 2px grey;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th , td {
+  padding: 5px 6px;
+}
+
+th {
+  background-color: steelblue;
+  color: white;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+  text-align: justify;
+  margin-left: 2.5rem;
+}
+
+.lado-direito {
+  text-align: justify;
+  float: right;
+  width: 20%;
+  margin-right: 20rem;
+}
+
+#rodape {
+  position: absolute;
+  top: 60rem;
+  background-color: steelblue;
+  width: 100%;
+  margin: 12px 0;
+  text-align: center;
+  color: white;
+}
